@@ -48,8 +48,8 @@ while ( my $line = <DATA> ) {
       $count++;
 
        if ($name =~/(.*)\.(.*)\.$hostname\.(.*)/){
-           $sitename =  $1;
-           $name = $2;
+           $sitename =  $2;
+           $name = $3;
        }           
            
        if ($name =~/df\.(.*)\.(.*)/){
