@@ -3,7 +3,7 @@
 
 
 -  InfluxDB가 버젼이 바뀌면서 구조가 바뀌었다. 
-- 변경 예 : `<tagName>.<tagValue>[.<tagName>.<tagValue>].<measurement>.`  -> `az.us-west-1.host.serverA.cpu.`
+- 변경 예 : `<tagName>.<tagValue>[.<tagName>.<tagValue>].<measurement>.`  -> `<measurement>,<tagName>=<tagValue>[,<tagName>=<tagValue>]`
 - 참조 : https://docs.influxdata.com/influxdb/v0.9/concepts/08_vs_09/
 
 
